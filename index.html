@@ -78,6 +78,19 @@
     .intro-section {
       padding: 10rem 0 0;
     }
+    .intro-video{
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+      display: block;
+    }
+    .intro-video iframe{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
   </style>
 
   <!-- Intro Section -->
@@ -88,7 +101,9 @@
           <h2 class="mb-4">intro</h2>
           <p>this is
             <a href="http://startbootstrap.com/template-overviews/grayscale/">"INTRO"</a>. "VIDEO"</p>
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Gl22N1LLBlA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="intro-video"
+            <iframe width="100%" src="https://www.youtube.com/embed/Gl22N1LLBlA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
