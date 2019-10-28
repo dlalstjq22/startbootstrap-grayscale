@@ -78,81 +78,6 @@
   </section>
 
   <style>
-    .slick-dots{
-      position: absolute;
-      bottom: 20px;
-      left: 0;
-      width: 100%;
-      list-style: none;
-      text-align: center;
-      margin: 0;
-    }
-    .slick-dots li{
-      display: inline-block;
-    }
-    .slick-dots li button{
-      outline: none;
-      display: inline-block;
-      background-color: transparent;
-      border-width: 0;
-    }
-    .slick-dots li button span{
-      display: none;
-    }
-    .slick-dots li button:before{
-      display: inline-block;
-      width: 10px;
-      height: 10px;
-      border-radius: 5px;
-      content: '';
-      background-color: #ffffff;
-    }
-    .slick-dots li.slick-active button:before{
-      background-color: #000000;
-    }
-Collapse
-.slick-buttons{
-      background-color: transparent;
-      border-width: 0;
-    }
-    .slick-buttons{
-      position: absolute;
-      top: 50%;
-      transform: translate3d(0, -50%, 0);
-      z-index: 2;
-    }
-    .slick-buttons span{
-      display: none;
-    }
-    .slick-buttons.slick-prev:before,
-    .slick-buttons.slick-next:before{
-      display: block;
-      width: 20px;
-      height: 20px;
-      border-color: #ffffff;
-      content: '';
-    }
-    .slick-buttons.slick-prev{
-      left: 20px;
-    }
-    .slick-buttons.slick-prev:before{
-      border-top-width: 8px;
-      border-left-width: 8px;
-      border-top-style: solid;
-      border-left-style: solid;
-      transform: rotate(-45deg);
-    }
-    .slick-buttons.slick-next:before{
-      border-bottom-width: 8px;
-      border-right-width: 8px;
-      border-bottom-style: solid;
-      border-right-style: solid;
-      transform: rotate(-45deg);
-    }
-    .slick-buttons.slick-next{
-      right: 20px;
-    }
-Collapse
     .intro-section {
       padding: 10rem 0 0;
     }
@@ -344,7 +269,83 @@ Collapse
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
+<style>
+  .slick-dots{
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      width: 100%;
+      list-style: none;
+      text-align: center;
+      margin: 0;
+    }
+    .slick-dots li{
+      display: inline-block;
+    }
+    .slick-dots li button{
+      outline: none;
+      display: inline-block;
+      background-color: transparent;
+      border-width: 0;
+    }
+    .slick-dots li button span{
+      display: none;
+    }
+    .slick-dots li button:before{
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      content: '';
+      background-color: #ffffff;
+    }
+    .slick-dots li.slick-active button:before{
+      background-color: #000000;
+    }
+Collapse
+.slick-buttons{
+      background-color: transparent;
+      border-width: 0;
+    }
+    .slick-buttons{
+      position: absolute;
+      top: 50%;
+      transform: translate3d(0, -50%, 0);
+      z-index: 2;
+    }
+    .slick-buttons span{
+      display: none;
+    }
+    .slick-buttons.slick-prev:before,
+    .slick-buttons.slick-next:before{
+      display: block;
+      width: 20px;
+      height: 20px;
+      border-color: #ffffff;
+      content: '';
+    }
+    .slick-buttons.slick-prev{
+      left: 20px;
+    }
+    .slick-buttons.slick-prev:before{
+      border-top-width: 8px;
+      border-left-width: 8px;
+      border-top-style: solid;
+      border-left-style: solid;
+      transform: rotate(-45deg);
+    }
+    .slick-buttons.slick-next:before{
+      border-bottom-width: 8px;
+      border-right-width: 8px;
+      border-bottom-style: solid;
+      border-right-style: solid;
+      transform: rotate(-45deg);
+    }
+    .slick-buttons.slick-next{
+      right: 20px;
+    }
+Collapse
+</style>
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
